@@ -18,6 +18,7 @@ public class Main {
         myMatrix.addEdge(8,7);
 
         boolean[][] results = myMatrix.getResults();
+
         for (int i = 0; i < results.length; i++) {
             String edges = alphabets[i] + " => ";
 
